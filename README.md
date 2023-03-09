@@ -6,6 +6,7 @@ Overall this project provides a simple and powerful tool for analyzing temperatu
 <p align="center"> 
     <a href="docs/002_CC_Barcelona_SSP585.gif" target="_blank"><img width="500" height="500" src="docs/002_CC_Barcelona_SSP585.gif" alt="Appwrite Logo"></a>
     <br />
+    <br />
     <b> A python script for the analysis for your [ Linux / Windows / iOS / Android Platform </b>
     <br />
 </p>
