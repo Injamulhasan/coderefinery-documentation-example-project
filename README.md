@@ -1,8 +1,10 @@
 # Temperature Analysis via Spreadsheet
-A python script for the analysis of Temperature in exel sheet.This is a project that take Temperature Data as input from an exel sheet and display some analytic view of the data.
+A python script is designed for the analysis of Temperature.This is a project that take Temperature Data in a specefic format as input from an exel sheet and display some analytic view of the data.Once the input data is loaded the script calculates verious statistical measures such as mean,median,SD and range of the data. <br>
 
+Overall this project provides a simple and powerful tool for analyzing temperature data in Exel Spreadsheets.It allow users to quickly obtain insights about temperature patterns over time and make informed decission based on the analysis.<br>
+<br>
 <p align="center"> 
-    <a href="docs/TS_AveTemp.png" target="_blank"><img width="750" height="300" src="docs/TS_AveTemp.png" alt="Appwrite Logo"></a>
+    <a href="docs/002_CC_Barcelona_SSP585.gif" target="_blank"><img width="500" height="500" src="docs/002_CC_Barcelona_SSP585.gif" alt="Appwrite Logo"></a>
     <br />
     <b> A python script for the analysis for your [ Linux / Windows / iOS / Android Platform </b>
     <br />
@@ -11,19 +13,10 @@ A python script for the analysis of Temperature in exel sheet.This is a project 
 # Why Shoud I Use This Project?
 It helps me analyze Temperatures mentioned in the spreadsheet
 
-
-
 Table of Contents:
 
 - [Installation](#installation)
-- [Unix](#unix)
-- [Windows](#windows)
-- [CMD](#cmd)
-- [PowerShell](#powershell)
-- [Upgrade from an Older Version](#upgrade-from-an-older-version)
 - [Getting Started](#getting-started)
-- [Community](#community)
-- [Architecture](#architecture)
 - [Contributing](#contributing)
 - [Security](#security)
 - [Follow Us](#follow-us)
@@ -31,41 +24,6 @@ Table of Contents:
 
 
 ## Installation
-
-### Unix
-
-```bash
-docker run -it --rm \
-    --volume /var/run/docker.sock:/var/run/docker.sock \
-    --volume "$(pwd)"/appwrite:/usr/src/code/appwrite:rw \
-    --entrypoint="install" \
-    appwrite/appwrite:1.2.1
- ### Unix
-
-```
-
-### Windows
-
-#### CMD
-
-```cmd
-docker run -it --rm ^
-    --volume //var/run/docker.sock:/var/run/docker.sock ^
-    --volume "%cd%"/appwrite:/usr/src/code/appwrite:rw ^
-    --entrypoint="install" ^
-    appwrite/appwrite:1.2.1
-```
-
-#### PowerShell
-
-```powershell
-docker run -it --rm `
-    --volume /var/run/docker.sock:/var/run/docker.sock `
-    --volume ${pwd}/appwrite:/usr/src/code/appwrite:rw `
-    --entrypoint="install" `
-    appwrite/appwrite:1.2.1
-```
-
 
 ## Getting Started
 
@@ -106,14 +64,15 @@ print(mean_temperature(data))
 ```
 
 
-### Upgrade from an Older Version
-
 
 ## Contributing
+1. Fork this Repository
+2. Create a new branch for your feature: `git checkout -b feature/your-feature.neame`
+3. Make the necessary change and commit them: `git commit -m "Add Your Commit Here"`
+4. Push the change to your fork: `git push origin feature/your-feature.name`
+5. Create a Pull request on the original repository
 
-All code contributions, including those of people having commit access, must go through a pull request and be approved by a core developer before being merged. This is to ensure a proper review of all the code.
-
-We truly ❤️ pull requests! If you wish to help, you can learn more about how you can contribute to this project in the <<link>>.
+###### All code contributions, including those of people having commit access, must go through a pull request and be approved by a core developer before being merged. This is to ensure a proper review of all the code. We truly ❤️ pull requests! If you wish to help, you can learn more about how you can contribute to this project in the <<link>>.
 
 ## Security
 
@@ -125,4 +84,5 @@ Join our growing community around the world! Check out our official medium. Foll
 
 ## License
 
-This repository is available under the  `||` [Apache License 2.0](./LICENSE) `||`.
+This repository is licensed under the  [Apache License 2.0](./LICENSE)  `Version 2.0`, January 2004
+                       ` http://www.apache.org/licenses/ ` .
