@@ -1,5 +1,5 @@
 # Temperature Analysis via Spreadsheet
-A python script for the analysis of Temperature in exel sheet
+A python script for the analysis of Temperature in exel sheet.This is a project that take Temperature Data as input from an exel sheet and display some analytic view of the data.
 
 <p align="center"> 
     <a href="docs/TS_AveTemp.png" target="_blank"><img width="750" height="300" src="docs/TS_AveTemp.png" alt="Appwrite Logo"></a>
@@ -29,9 +29,8 @@ Table of Contents:
 - [Follow Us](#follow-us)
 - [License](#license)
 
-## Installation
 
-If you are upgrading your Appwrite server from an older version, you should use the Appwrite migration tool once your setup is completed. For more information regarding this, check out the <<link>>
+## Installation
 
 ### Unix
 
@@ -41,6 +40,8 @@ docker run -it --rm \
     --volume "$(pwd)"/appwrite:/usr/src/code/appwrite:rw \
     --entrypoint="install" \
     appwrite/appwrite:1.2.1
+ ### Unix
+
 ```
 
 ### Windows
@@ -65,19 +66,35 @@ docker run -it --rm `
     appwrite/appwrite:1.2.1
 ```
 
-## Setup
-You need  `python 3.5`<br>
-This project depends on `panda` library install it on our system `pip install pandas` <br>
-And then in our code book we need to do <br> 
 
+## Getting Started
+
+If you are upgrading your Appwrite server from an older version, you should use the Appwrite migration tool once your setup is completed. For more information regarding this, check out the <<link>>
+
+1.Clone this repository using this following command
 ```
+git clone Injamulhasan/coderefinery-documentation-example-project.git
+```
+2.Install this required python Packages using the following command
+```
+pip install -r requirements.txt
+```
+0r Setup
+
+You need `python 3.5` & This project also depends on `panda` library install it on our system <br>
+```
+pip install pandas
+``` 
+
+And then in our code book we need to do <br> 
+```Python
 import pandas as pd
 ```
 
 ### How to run?
 You can run this script on your system by adding this tool to your command line
 
-```
+```Python
 analyse_spreadsheet.py
 ```
 You can use Functions directly, For example: To calculate the Mean Temperature of some data
@@ -104,8 +121,8 @@ For security issues, kindly email us at <<link>> instead of posting a public iss
 
 ## Follow Us
 
-Join our growing community around the world! Check out our official [Blog](https://medium.com/appwrite-io). Follow us on [Twitter](https://twitter.com/appwrite), [Facebook Page](https://www.facebook.com/appwrite.io), [Facebook Group](https://www.facebook.com/groups/appwrite.developers/), [Dev Community](https://dev.to/appwrite) or join our live [Discord server](https://discord.gg/GSeTUeA) for more help, ideas, and discussions.
+Join our growing community around the world! Check out our official medium. Follow us on Twitter, Facebook Page, Facebook Group, Dev Community or join our live Discord serverfor more help, ideas, and discussions.
 
 ## License
 
-This repository is available under the [BSD 3-Clause License](./LICENSE) `||` [Apache License 2.0](./LICENSE).
+This repository is available under the  `||` [Apache License 2.0](./LICENSE) `||`.
