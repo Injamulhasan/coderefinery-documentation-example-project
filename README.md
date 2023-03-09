@@ -1,4 +1,4 @@
-# Temperatureanalysis via spreedsheet
+# Temperature analysis via spreedsheet
 A python script for the analysis of te,perature in exel sheet
 
 ## why shoud i use this project?
